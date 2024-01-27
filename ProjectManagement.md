@@ -31,7 +31,7 @@ The schema is as follows -
 |---------------|-------------|-----------|-----------------|--------------|-----------------|------------|
 | Int           | String      | Date      | Date            | String       | Long int        | String     |
 
-The output of your query should give the highest and the lowest budget allocated, with the department name to which they are allocated. The output format-
+The output of your query should give the highest and the lowest budget allocated(sum of all allocations), with the department name to which they are allocated. The output format-
 | type                        | department | totalbudgetallocated |
 |-----------------------------|------------|----------------------|
 | String("Highest", "Lowest") | String     | Long int             |
