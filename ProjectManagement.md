@@ -12,7 +12,7 @@ Create a class called **Project** that has following attributes -
 - Department : String
 
 The class should have following methods -
-- remainingBudget(budgetExhausted : String) : CurrencyFormat (calculates the remaining budget = BudgetAllocated - budgetExhausted)
+- remainingBudget(budgetExhausted : CurrencyFormat) : CurrencyFormat (calculates the remaining budget = BudgetAllocated - budgetExhausted)
 - timeElapsed() : DateFormat (Today's Date - StartDate)
 - timeRemaining() : DateFormat (ProposedEndDate - Today's Date)
 
