@@ -1,7 +1,7 @@
 # Problem Statement - Coding
 
-CurrencyFormat : "$X,XXX,XXX.XX" (thousand separator following American System with always 2 decimal points) example: $10,000,000,00 | $80.00
-DateFormat : "dd/MMM/YYYY" example: 10/Jan/2024
+- CurrencyFormat : "$X,XXX,XXX.XX" (thousand separator following American System with always 2 decimal points) example: $10,000,000,00 | $80.00
+- DateFormat : "dd/MMM/YYYY" example: 10/Jan/2024
 
 Create a class called **Project** that has following attributes -
 - ProjectName : String
