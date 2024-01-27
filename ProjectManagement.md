@@ -1,6 +1,5 @@
 # Problem Statement - Coding
 
-- CurrencyFormat : "$X,XXX,XXX.XX" (thousand separator following American System with always 2 decimal points) example: $10,000,000,00 | $80.00
 - DateFormat : "dd/MMM/YYYY" example: 10/Jan/2024
 
 Create a class called **Project** that has following attributes -
@@ -8,17 +7,47 @@ Create a class called **Project** that has following attributes -
 - StartDate : DateFormat
 - ProposedEndDate : DateFormat
 - ProjectOwner : String
-- BudgetAllocated : CurrencyFormat
+- BudgetAllocated : BigInteger
 - Department : String
 
 The class should have following methods -
-- remainingBudget(budgetExhausted : CurrencyFormat) : CurrencyFormat (calculates the remaining budget = BudgetAllocated - budgetExhausted)
+- remainingBudget(budgetExhausted : BigInteger) : BigInteger (calculates the remaining budget = BudgetAllocated - budgetExhausted)
 - timeElapsed() : DateFormat (Today's Date - StartDate)
 - timeRemaining() : DateFormat (ProposedEndDate - Today's Date)
 
-Constraints:
+### Constraints:
 - User while giving input will also follow the Date and Currency format so no need to input validate.
-- $100,000,000.00 >= Currency >= $0
+
+### Input format:  
+ProjectName  
+StartDate  
+EndDate  
+ProjectOwner  
+BudgetAllocated  
+Department  
+BudgetExhausted  
+
+### Output format:  
+remainingBudget  
+timeElapsed  
+timeRemaining  
+
+### Input - 
+```
+ABC_Project
+10/Jan/2024
+30/Mar/2024
+ABC_Limited
+20000
+Software
+10000
+```
+### Output (as per today 27/Jan/2024) - 
+```
+10000
+17
+63
+```
 
 ---
 
