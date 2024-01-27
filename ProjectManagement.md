@@ -35,3 +35,4 @@ The output of your query should give the highest and the lowest budget allocated
 | type                        | department | totalbudgetallocated |
 |-----------------------------|------------|----------------------|
 | String("Highest", "Lowest") | String     | Long int             |
+It should have two rows always. (One for highest and one for lowest)
