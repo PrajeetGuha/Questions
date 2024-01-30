@@ -63,6 +63,6 @@ The schema is as follows -
 The output of your query should give the highest and the lowest budget allocated(sum of all allocations), with the department name to which they are allocated. The output format-
 | type                        | department | total_budget_allocated |
 |-----------------------------|------------|------------------------|
-| String("Highest", "Lowest") | String     | Long int               |
+| IN ("Highest", "Lowest")    | String     | Long int               |
 
-It should have two rows always. (One for highest and one for lowest)
+It should have two rows always. (One for highest and one for lowest).
